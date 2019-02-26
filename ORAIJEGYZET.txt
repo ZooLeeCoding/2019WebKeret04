@@ -1,0 +1,14 @@
+
+Önálló feladat:
+- új komponens Konyvelo néven
+- az AppComponenttől ez is megkapja minden raktárfeltöltés értékét
+- összegzi a kiadásokat, egy 
+  <p>Eddig költöttem: {{summa}} forintot</p>
+  tag segítségével megjeleníti az összes raktározásra 
+  költött kiadásokat
+- a my-first-component egy második outputtal is rendelkezik, 
+  amit gyümölcs vásárlásakor hív meg és átadja 
+  a vásárolt gyümölcs objektumot árral, névvel az event során
+- ez is eljut a Konyvelo komponenshez, ami 
+  a vásárlás értékét levonja a költés összegéből
+
